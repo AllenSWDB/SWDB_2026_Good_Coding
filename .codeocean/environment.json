@@ -5,5 +5,32 @@
 		"registry_host_arg": true,
 		"git_ask_pass": true,
 		"mount_secrets": true
+	},
+	"installers": {
+		"pip": {
+			"packages": [
+				{
+					"name": "argparse"
+				},
+				{
+					"name": "matplotlib",
+					"version": "3.11.0"
+				},
+				{
+					"name": "numpy",
+					"version": "2.5.1"
+				},
+				{
+					"name": "pandas",
+					"version": "3.0.3"
+				},
+				{
+					"name": "pyarrow",
+					"version": "25.0.0"
+				}
+			],
+			"options": {},
+			"pre_install_options": {}
+		}
 	}
 }
