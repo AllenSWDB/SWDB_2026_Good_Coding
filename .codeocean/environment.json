@@ -13,6 +13,14 @@
 					"name": "argparse"
 				},
 				{
+					"name": "hdmf",
+					"version": "6.1.0"
+				},
+				{
+					"name": "hdmf-zarr",
+					"version": "0.13.0"
+				},
+				{
 					"name": "matplotlib",
 					"version": "3.11.0"
 				},
@@ -27,6 +35,14 @@
 				{
 					"name": "pyarrow",
 					"version": "25.0.0"
+				},
+				{
+					"name": "pynwb",
+					"version": "4.1.0"
+				},
+				{
+					"name": "scipy",
+					"version": "1.18.0"
 				}
 			],
 			"options": {},
