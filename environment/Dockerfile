@@ -1,4 +1,4 @@
-# hash:sha256:7838798355476eb66820e1e6129ce791ab6bef9ed8d56acb7a7d6063aa988b0b
+# hash:sha256:98f6840d3fe21807848c3af5c486ab5dc7b531b374c091d9ea1b7fcc428f15e8
 ARG REGISTRY_HOST
 FROM $REGISTRY_HOST/codeocean/code-server-python-extensions-pack:code-server4.129.0python3.12.4codeocean-mcp-serveruvpyreflyetc
 
@@ -16,3 +16,7 @@ RUN pip install -U --no-cache-dir \
     pyarrow==25.0.0 \
     pynwb==4.1.0 \
     scipy==1.18.0
+
+COPY postInstall /
+RUN --mount=type=secret,id=secrets . /run/secrets/secrets \
+    && /postInstall
