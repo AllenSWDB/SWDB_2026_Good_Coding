@@ -8,8 +8,8 @@ import pandas as pd
 DATA_ROOT = Path('/data/409828_V1DD_Filtered')
 EM_DATA_PATH = Path('/data/v1dd_1196')
 
-STEP1_DIR = Path('/code/data/intermediates/v1dd_step1')   # single-ROI Step 1 artifacts
-STEP2_DIR = Path('/code/data/intermediates/v1dd_step2')   # batch tuning + metrics artifacts
+STEP1_DIR = Path('/code/data/v1dd_step1')   # single-ROI Step 1 artifacts
+STEP2_DIR = Path('/code/data/v1dd_step2')   # batch tuning + metrics artifacts
 
 
 def ensure_dir(path):
