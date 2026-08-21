@@ -1,6 +1,6 @@
-# hash:sha256:0c0255c920b65fdea08412fd61a243d929c05bade10ea5f8f985e6b286d806e4
+# hash:sha256:b8cdaf98fb059bd4ee1ce7ea1a6de724e3cfaa2db21357a29e0aab2ddc5929b7
 ARG REGISTRY_HOST
-FROM $REGISTRY_HOST/codeocean/swdb-base-image:0.1
+FROM $REGISTRY_HOST/codeocean/swdb:Python3.12code-server4.133.0
 
 ARG DEBIAN_FRONTEND=noninteractive
 ARG GIT_ASKPASS
