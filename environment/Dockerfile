@@ -1,4 +1,4 @@
-# hash:sha256:e4919cba0093515b111e6777abc1b193a76e57905b2e6b0dd2808569ea6ba74a
+# hash:sha256:0c0255c920b65fdea08412fd61a243d929c05bade10ea5f8f985e6b286d806e4
 ARG REGISTRY_HOST
 FROM $REGISTRY_HOST/codeocean/swdb-base-image:0.1
 
@@ -16,7 +16,3 @@ RUN pip install -U --no-cache-dir \
     pyarrow==25.0.0 \
     pynwb==4.1.0 \
     scipy==1.18.0
-
-COPY postInstall /
-RUN --mount=type=secret,id=secrets . /run/secrets/secrets \
-    && /postInstall

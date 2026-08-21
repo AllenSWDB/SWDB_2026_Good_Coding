@@ -2,12 +2,8 @@
 	"version": 1,
 	"attached_datasets": [
 		{
-			"id": "8a5371f5-e2f1-4072-9c07-075b3fae4d13",
+			"id": "2e02e089-3c5d-4de6-aa79-6d4723ebb663",
 			"mount": "409828_V1DD_Filtered"
-		},
-		{
-			"id": "aafc99cc-92ee-4d04-b152-92f1063a3268",
-			"mount": "v1dd_1196"
 		}
 	]
 }
