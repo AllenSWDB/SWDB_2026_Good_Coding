@@ -1,0 +1,2 @@
+# comment
+variable = 1
