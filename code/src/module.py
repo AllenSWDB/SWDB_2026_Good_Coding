@@ -1,2 +1,0 @@
-#Nadin
-Variable = 2
