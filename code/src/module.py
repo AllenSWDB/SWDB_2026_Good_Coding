@@ -1,1 +1,2 @@
-# Michael wuz here
+# Dan was here
+variable = 1
