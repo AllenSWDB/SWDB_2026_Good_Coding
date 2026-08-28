@@ -1,1 +1,2 @@
-# Michael wuz here
+# Comment
+variable = 'var'
